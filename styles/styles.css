@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu nav {
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu img {
+  width: 230px;
+  height: 80px;
+}
+
+.menu nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.menu nav ul li a {
+  display: flex;
+  margin-left: 30px;
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: red;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 70vh;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+  color: red;
+  padding-top: 10px;
+}
+
+.link nav ul li a {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.suporte ul li a {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.contato p {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sectiondireita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionesquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 20px;
+  margin: 10px;
+  width: 90vh;
+  height: 65px;
+}
+
+.mainabout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textoabout {
+  width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imgabout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.imgabout img {
+  width: 85vh;
+  height: 65vh;
+}
+
+.mainmarketplace {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.cards section {
+  margin: 20px;
+  width: 30vh;
+  height: 50vh;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.Contact {
+  width: 100%;
+  height: 70vh;
+  background-color: #ffffff;
+}
+
+.Contact section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Cardform {
+  background-color: red;
+  width: 80%;
+  border-radius: 20px;
+  height: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#Cardform h3 {
+  color: white;
+  cursor: pointer;
+}
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 20px;
+  width: 98%;
+}
+
+#Cardform div {
+  margin-top: 15px;
+}
+
+#Cardform div label {
+  color: #ffffff;
+}
+
+.bnt {
+  width: 98%;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.NomeEmail {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.NomeEmail div {
+  width: 48%;
+}
